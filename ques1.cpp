@@ -10,13 +10,13 @@ long long unsigned fact(int x){
     }
 }
 
-int ncr(long unsigned n,long unsigned r){
+long unsigned int ncr(int n,int r){
     return fact(n)/(fact(n-r)*fact(r));
 }
 int main(){
     int n,r;
     cout<<"Enter the values of n,r"<<endl;
     cin>>n>>r;
-    cout<<"nCr is "<< ncr(n, r);
+    cout<<"nCr is "<< ncr(n, r) << endl;
 
 }
