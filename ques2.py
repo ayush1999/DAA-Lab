@@ -25,7 +25,7 @@ def merge(a, b):
 
 
 def mergesort(x):
-
+    print("Added a new line")
     if len(x) == 0 or len(x) == 1:
         return x
     else:
